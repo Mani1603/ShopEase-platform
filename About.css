@@ -1,0 +1,77 @@
+body 
+{
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(white,blue);
+}
+
+/* Navbar Styling */
+.navbar-brand 
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  padding: 20px;
+}
+
+.nav-link 
+{
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover 
+{
+  color: yellow !important;
+}
+
+/* About Section */
+.container h2 
+{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container p 
+{
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: black;
+}
+
+/* Footer Styling */
+footer 
+{
+  background-color: darkgray;
+  color: white;
+}
+
+footer h5 
+{
+  font-weight: bold;
+  color: white;
+}
+footer h6
+{
+  color: white;
+}
+footer a 
+{
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a:hover 
+{
+  color: yellow;
+  text-decoration: none;
+}
+
+hr.bg-light 
+{
+  border-top: 1px solid lightgrey;
+}
+
+
+
+

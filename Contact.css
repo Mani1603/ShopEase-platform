@@ -1,0 +1,108 @@
+/* Global Page Style */
+body 
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(#4091e2,white);
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h2 
+{
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+
+/* Form Styling */
+form 
+{
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px black;
+}
+
+.form-group label 
+{
+  font-weight: 600;
+}
+
+.form-control 
+{
+  border-radius: 8px;
+  border: 1px solid lightslategrey;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus 
+{
+  border-color: lightgreen;
+  box-shadow: 0 0 5px black;
+}
+
+.btn-success 
+{
+  width: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover
+{
+  background-color: darkgreen;
+}
+
+/* Navbar Styling */
+.navbar-dark .navbar-nav .nav-link 
+{
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover 
+{
+  color: yellow;
+}
+
+/* Footer Styling */
+footer 
+{
+  background-color: darkgrey;
+  padding: 40px 0;
+  color: white;
+}
+
+footer h5 
+{
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer a 
+{
+  color: white;
+  transition: color 0.2s;
+}
+
+footer a:hover 
+{
+  color: yellow;
+}
+
+footer hr 
+{
+  border-top: 1px solid #6c757d;
+}
+
+/* Responsive */
+@media (max-width: 576px) 
+{
+  form 
+  {
+    padding: 20px;
+  }
+}
